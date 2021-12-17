@@ -1,0 +1,19 @@
+body{
+	background-color:rgba(39, 39, 39, 0.68); /* Background color of Body */
+	font-size:5px;
+}
+.madagascar{
+  width:90em;
+  height:60em;
+  background-color:white;
+  position:relative;
+}
+.madagascar::after{
+  right:0em;
+  content:"";
+  position:absolute;
+  width:60em;
+  height:30em;
+  background-color:#fc3d32;
+  box-shadow:0em 30em 0em 0em #007e3a;
+}

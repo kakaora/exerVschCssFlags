@@ -1,0 +1,20 @@
+body{
+    background-color:rgba(39, 39, 39, 0.68); /* Background color of Body */
+    font-size:5px; 
+  }
+  .gambia{ 
+    width:90em;
+    height:20em;
+    background-color:#ce1126;
+    position:relative;
+    box-shadow:0em 20em 0em 0em #0c1c8c,0em 40em 0em 0em #3a7728;
+  }
+  .gambia::after{
+    position:absolute;
+    content:"";
+    width:90em;
+    height:4em;
+    background-color:white;
+    top:20em;
+    box-shadow:0em 16em 0em 0em white;
+  }

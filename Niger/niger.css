@@ -1,0 +1,21 @@
+body{
+	background-color:rgba(39, 39, 39, 0.68); /* Background color of Body */
+	font-size:6px; 
+}
+.niger{
+  width:70em;
+  height:20em;
+  background-color:#e05206;
+  box-shadow:0em 20em 0em 0em white,0em 40em 0em 0em #0DB02B;
+  position:relative;
+}
+.niger::after{
+  position:absolute;
+  content:"";
+  width:15em;
+  height:15em;
+  border-radius:80%;
+  background-color:#e05206;
+  top:22em;
+  left:28em;
+}

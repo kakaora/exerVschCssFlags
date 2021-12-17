@@ -1,0 +1,26 @@
+#one{
+    position:fixed;
+    top:0%;
+    left:0%;
+    height:100%;
+    width:100%;
+    background:rgb(0,123,184);
+  }
+  
+  #two{
+    position:fixed;
+    top:50%;
+    left:0%;
+    height:15%;
+    width:100%;
+    background:yellow;
+  }
+  
+  #three{
+    position:fixed;
+    top:0%;
+    left:35%;
+    height:100%;
+    width:10%;
+    background:yellow;
+  }

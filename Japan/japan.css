@@ -1,0 +1,23 @@
+html {
+    background-color: #000;
+  }
+  
+  #theDiv {
+    background-color: #FFF;
+    width: 800px;
+    height: 500px;
+    position: relative;
+    margin: 0 auto;
+  }
+  
+  #theDiv:after {
+    display: block;
+    content: "";
+    height: 250px;
+    width: 250px;
+    position: absolute;
+    top: 125px;
+    left: 275px;
+    border-radius: 50%;
+    background-color: red;
+  }
